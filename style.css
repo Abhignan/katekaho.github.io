@@ -1,0 +1,62 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#resume ul {
+	display: inline-block;
+}
+
+.navbar {
+	min-height: 80px;
+}
+
+#main {
+	padding-top: 150px;
+}
+
+.header {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#info {
+	background-color: rgb(48, 10, 36);
+	padding: 20px;
+	border-top: 25px #404040 solid;
+	border-radius: 5px;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 20px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#resume-box, #projects {
+	padding: 20px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.bg-1 {
+	background-color: #958d9b;
+	color: white;
+}
+
+.bg-2 {
+	background-color: #556b8e;
+	color: #e5ffe8;
+}
+
+.bg-3 {
+	background-color: #a33553;
+	color: white;
+}
+
+.bg-4 {
+	background-color: white;
+	color: gray;
+}
+
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
