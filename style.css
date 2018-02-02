@@ -63,6 +63,18 @@ body {
 	font-size: 14px;
 }
 
+.information img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	border: 0.1px transparent;
+	border-radius: 50%;
+}
+
+.information img:hover {
+	-webkit-filter: grayscale(0%);
+	filter: none;
+}
+
 #resume-box .information,
 #projects .information {
 	padding-top: 10px;
