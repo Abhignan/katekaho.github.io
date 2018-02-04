@@ -2,6 +2,10 @@ body {
 	font-family: 'Titillium Web', sans-serif;
 }
 
+ul {
+	list-style-type: square;
+}
+
 #resume ul {
 	display: inline-block;
 }
@@ -127,4 +131,60 @@ body {
 .container-fluid {
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+
+#languages div {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#languages p {
+	border: 1px dashed black;
+	border-radius: 15px;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px;
+	text-align: center;
+}
+
+#java p:hover {
+	background-color: red;
+	border-color: red;
+	color: white;
+}
+
+#c p:hover {
+	background-color: #5c5cd6;
+	border-color: #5c5cd6;
+	color: white;
+}
+
+#html p:hover {
+	background-color: #e65c00;
+	border-color: #e65c00;
+	color: white;
+}
+
+#css p:hover {
+	background-color: #007acc;
+	border-color: #007acc;
+	color: white;
+}
+
+#javascript p:hover {
+	background-color: #cca300;
+	border-color: #cca300;
+	color: white;
+}
+
+#photoshop p:hover {
+	background-color: #0099ff;
+	border-color: #0099ff;
+	color: white;
+}
+
+#mysql p:hover {
+	background-color: orange;
+	border-color: orange;
+	color: white;
 }
