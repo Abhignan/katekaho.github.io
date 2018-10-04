@@ -19,10 +19,8 @@
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
-      <!-- Brand -->
       <a class="navbar-brand" href="#main">Kate Kaho Miller</a>
 
-      <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,23 +34,20 @@
           <li class="nav-item">
             <a href="#resume" class="nav-link" href="#">Resume</a>
           </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link" href="#">Projects</a>
-          </li> 
         </ul>
       </div> 
     </nav>
 
     <!-- Center Image -->
-    <div class="container-fluid bg-1 text-center" id="main">
+    <div class="container-fluid bg-1 text-center" class="main">
       <div class="typewriter opening">
-        <h1>Hello, World! I'm a software engineer with a passion for design.</h1>
+        <h1>Hello, World! Welcome to my site!</h1>
       </div>
     </div>
 
-    <div id="about" class="container-fluid bg-2 justify-content-center">
+    <div class="about container-fluid bg-2 justify-content-center" id="about">
     <h2 class="header">About</h2>
-      <div id="info">
+      <div class="info">
         <p>home@Kate: "Roseville, CA"</p>
         <p>education@Kate: "University of California, Santa Cruz"</p>
         <p>major@Kate: "Computer Science"</p>
@@ -65,8 +60,8 @@
       </div>
     </div>
 
-    <div id="resume" class="container-fluid bg-3">
-      <div id="resume-box">
+    <div class="resume" id="resume" class="container-fluid bg-3">
+      <div class="resume-box">
 
       	<h1 class="header">Résumé</h1>
 
@@ -85,16 +80,15 @@
   				</div>
   			</div>
 
-        <ul>
-          <li>GPA: 3.66</li>
-      	</ul>
           <h4>Current Coursework: </h4>
           <ul>
-  	        <li>Computer Architecture</li>
-  	        <li>Introduction to Analysis of Algorithms</li>
+  	        <li>Introduction to Software Engineering</li>
+  	        <li>Comparative Programming Languages</li>
   	    </ul>
           <h4>Past Coursework: </h4>
           <ul>
+            <li>Computer Architecture</li>
+            <li>Introduction to Analysis of Algorithms</li>
             <li>Computer Systems and Assembly Language </li>
             <li>Probability and Statistics for Engineers</li>
           	<li>Abstract Data Types</li>
@@ -112,6 +106,21 @@
 
         <div class="row information">
           <div class="col-sm-0.5">
+            <img src="./images/tech4good-logo.png" class="img-circle" alt="tech4good logo" height="35px"></h3>
+          </div>
+        	<div class="col-sm-6">
+        		<h3>Tech4Good Lab<br>Undergraduate Research Fellow</h3>
+        	</div>
+          
+        	<div class="col-sm">
+        		<h3 class="text-right">July 2018 - Present<br>Santa Cruz, CA</h3>
+        	</div>
+        </div>
+        <ul><li> Currently doing Front End Web Development on a platform we are using for research. I design hi-fidelity mockups and implement them using Angular with the RxJS library. I have been managing a small team of people who are also working on the site.</li></ul>
+
+
+        <div class="row information">
+          <div class="col-sm-0.5">
             <img src="./images/uc.png" class="img-circle" alt="ucsc logo" height="35px"></h3>
           </div>
         	<div class="col-sm-6">
@@ -122,7 +131,6 @@
         		<h3 class="text-right">September 2017 - December 2017<br>Santa Cruz, CA</h3>
         	</div>
         </div>
-
         <ul><li> Worked alongside the TA in lab sections of about 30 students to demonstrate new concepts and provide help on their programming assignments in the Introduction to Programming in Java class.</li></ul>
 
         <div class="row information">
@@ -132,47 +140,15 @@
         	<div class="col-sm-6">
         		<h3>UC Santa Cruz Dining<br>Food Service Worker</h3>
         	</div>
-          
         	<div class="col-sm">
         		<h3 class="text-right">September 2016 - March 2017<br>Santa Cruz, CA</h3>
         	</div>
         </div>
-
         <ul><li>Served and prepared food in the university dining hall.</li></ul>
 
 
         <h2>Organizations</h2>
         <hr>
-
-        <div class="row information">
-          <div class="col-sm-0.5">
-            <img src="./images/tech4good-logo.png" class="img-circle" alt="tech4good-logo" height="35px"></h3>
-          </div>
-          <div class="col-sm-6">
-            <h3>Tech4Good Lab<br>Studio Member</h3>
-          </div>
-          
-          <div class="col-sm">
-            <h3 class="text-right">March 2018 - Present<br>Santa Cruz, CA</h3>
-          </div>
-        </div>
-
-        <ul><li>Part of a team creating a peer critque platform, built with Angular and Firebase. </li></ul>
-
-        <div class="row information">
-          <div class="col-sm-0.5">
-            <img src="./images/sase.png" class="img-circle" alt="sase logo" height="35px"></h3>
-          </div>
-        	<div class="col-sm-6">
-        		<h3>Society of Asian Scientists and Engineers<br>Member</h3>
-        	</div>
-          
-        	<div class="col-sm">
-        		<h3 class="text-right">January 2018 - Present<br>Santa Cruz, CA</h3>
-        	</div>
-        </div>
-
-        <ul><li>Went to Leadership conference at UCB, actively participate in workshops and weekly meetings</li></ul>
 
         <div class="row information">
           <div class="col-sm-0.5">
@@ -194,7 +170,7 @@
             <img src="./images/swe.png" class="img-circle" alt="swe logo" height="35px" width="35px"></h3>
           </div>
         	<div class="col-sm-6">
-        		<h3>Society of Women Engineers<br>Member</h3>
+        		<h3>Society of Women Engineers<br>Member, Outreach Chair</h3>
         	</div>
           
         	<div class="col-sm">
@@ -204,6 +180,20 @@
 
         <ul><li>Attend meetings, attended the regional leadership conference, and attend social and professional development events.</li></ul>
 
+        <div class="row information">
+            <div class="col-sm-0.5">
+              <img src="./images/sase.png" class="img-circle" alt="sase logo" height="35px"></h3>
+            </div>
+            <div class="col-sm-6">
+              <h3>Society of Asian Scientists and Engineers<br>Member</h3>
+            </div>
+            
+            <div class="col-sm">
+              <h3 class="text-right">January 2018 - Present<br>Santa Cruz, CA</h3>
+            </div>
+          </div>
+  
+          <ul><li>Went to Leadership conference at UCB, actively participate in workshops and weekly meetings</li></ul>
 
         <div class="row information">
           <div class="col-sm-0.5">
@@ -222,74 +212,26 @@
 
         <h2>Languages and Technologies</h2>
         <hr>
-        <div id="languages">
-          <div id="java"><p>Java</p></div>
-          <div id="c"><p>C</p></div>
-          <div id="html"><p>HTML</p></div>
-          <div id="css"><p>CSS</p></div>
-          <div id="javascript"><p>Javascript</p></div>
-          <div id="photoshop"><p>Photoshop</p></div>
-          <div id="mysql"><p>mySQL</p></div>
+        <div class="languages">
+          <div><p>JavaScript</p></div>
+          <div><p>Java</p></div>
+          <div><p>Angular</p></div>
+          <div><p>React</p></div>
+          <div><p>C</p></div>
+          <div><p>HTML</p></div>
+          <div><p>CSS</p></div>
+          <div><p>Javascript</p></div>
+          <div><p>Photoshop</p></div>
         </div>
     </div>
   </div>
 
-
-    <div id="projects" class="container-fluid bg-4">
-      <div id="projects-text">
-
-      <h2 class="header">Projects </h2>
-      <hr>
-
-      <div class="row information">
-      	<div class="col-md">
-      		<h3><a href="https://katekaho.github.io/clubs-for-slugs/">Clubs for Slugs</a> <i>(2018)</i></h3>
-      	</div>
-      </div>
-      <ul>
-        <li>Made during a hackathon with a team, index of orgs at UCSC - HTML/CSS/JS - 
-        <a href="https://github.com/katekaho/clubs-for-slugs">GitHub</a></li>
-      </ul>
-
-
-      <div class="row information">
-      	<div class="col-md">
-      		<h3><a href="https://katekaho.github.io/rock-paper-scissors/">Rock Paper Scissors</a> <i>(2018)</i></h3>
-      	</div>
-      </div>
-      <ul>
-        <li>Simple Implementation of Rock Paper Scissors - HTML/CSS/JS - 
-        <a href="https://github.com/katekaho/rock-paper-scissors">GitHub</a></li>
-      </ul>
-
-      <div class="row information">
-      	<div class="col-md">
-      		<h3><a href="https://katekaho.github.io/google-homepage/">Google Homepage</a> <i>(2018)</i></h3>
-      	</div>
-      </div>
-      <ul>
-        <li>Reconstructed the Google Homepage - HTML/CSS - 
-        <a href="https://github.com/katekaho/google-homepage">GitHub</a></li>
-      </ul>
-
-      <div class="row information">
-      	<div class="col-md">
-      		<h3><a href="https://github.com/katekaho/encode-decode">Encoder and Decoder</a> <i>(2017)</i></h3>
-      	</div>
-      </div>
-      <ul>
-        <li>Encodes and decodes files using huffman coding, worked with a partner in class - C - 
-        <a href="https://github.com/katekaho/encode-decode">GitHub</a></li>
-      </ul>
-    </div>
-    </div>
-
-    <div id="footer" class="bg-5 container-fluid">
-      <div class="row">
-        <div class="col-sm">
+    <div class="footer" class="bg-5 container-fluid">
+      <div class="footer-text-container">
+        <div>
           <p>Made with ❤ by Kate</p>
         </div>
-        <div class="col-sm text-right">
+        <div>
           <a href="kat3miller@gmail.com">Email</a> //
           <a href="https://github.com/katekaho">Github</a> //
           <a href="https://www.linkedin.com/in/katekaho/">LinkedIn</a>

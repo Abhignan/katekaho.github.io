@@ -11,13 +11,13 @@ h1 {
 	font-size: 22px;
 }
 
-#resume ul {
+.resume ul {
 	display: inline-block;
 }
 
 .opening {
 	display: flex;
-	width: 790px;
+	width: 423px;
 	margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@ h1 {
 }
 
 
-#main {
+.main {
 	padding-top: 150px;
 }
 
@@ -37,10 +37,11 @@ h1 {
 	padding-bottom: 30px;
 }
 
-#info {
+.info {
 	background-color: rgb(48, 10, 36);
 	padding: 20px;
 	border-top: 25px #404040 solid;
+	color: white;
 	border-radius: 5px;
 	font-family: 'Ubuntu Mono', monospace;
 	font-size: 20px;
@@ -48,33 +49,33 @@ h1 {
 	margin: 0 auto;
 }
 
-#resume-box, 
-#projects-text {
+.resume-box, 
+.projects-text {
 	padding: 20px;
 	max-width: 900px;
 	margin: 0 auto;
 }
 
-#resume-box h2 {
+.resume-box h2 {
 	font-size: 23px;
 	padding-bottom: 5px;
 	padding-top: 20px;
 	text-transform: uppercase;
 }
 
-#resume-box h3,
-#projects h3 {
+.resume-box h3,
+.projects h3 {
 	line-height: 20px;
 	font-size: 14px;
 	text-transform: uppercase;
 }
 
-#projects a {
+.projects a {
 	color:#8ce5ff;
 	text-decoration: underline;
 }
 
-#resume-box h4 {
+.resume-box h4 {
 	line-height: 20px;
 	font-size: 14px;
 }
@@ -91,13 +92,13 @@ h1 {
 	filter: none;
 }
 
-#resume-box .information,
-#projects .information {
+.resume-box .information,
+.projects .information {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-#footer {
+.footer {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -105,6 +106,7 @@ h1 {
 .bg-1 {
 	background-color: #d6a0a1;
 	color: white;
+	margin-top: 80px;
 }
 
 .bg-2 {
@@ -127,17 +129,19 @@ h1 {
 	color: white;
 }
 
-#footer {
+.footer {
+	background-color: rgb(4, 22, 80);
+	color: white;
 	font-size: 11px;
 	text-transform: uppercase;
 }
 
-#footer p {
-	margin-bottom: 0;
+.footer a {
+	color: white;
 }
 
-#footer a {
-	color: white;
+.footer p {
+	margin-bottom: 0;
 }
 
 .container-fluid {
@@ -145,12 +149,12 @@ h1 {
 	padding-bottom: 70px;
 }
 
-#languages div {
+.languages div {
 	display: inline-block;
 	margin-left: 10px;
 }
 
-#languages p {
+.languages p {
 	border: 1px dashed black;
 	border-radius: 15px;
 	font-size: 18px;
@@ -158,49 +162,6 @@ h1 {
 	padding: 10px;
 	text-align: center;
 }
-
-#java p:hover {
-	background-color: red;
-	border-color: red;
-	color: white;
-}
-
-#c p:hover {
-	background-color: #5c5cd6;
-	border-color: #5c5cd6;
-	color: white;
-}
-
-#html p:hover {
-	background-color: #e65c00;
-	border-color: #e65c00;
-	color: white;
-}
-
-#css p:hover {
-	background-color: #007acc;
-	border-color: #007acc;
-	color: white;
-}
-
-#javascript p:hover {
-	background-color: #cca300;
-	border-color: #cca300;
-	color: white;
-}
-
-#photoshop p:hover {
-	background-color: #0099ff;
-	border-color: #0099ff;
-	color: white;
-}
-
-#mysql p:hover {
-	background-color: orange;
-	border-color: orange;
-	color: white;
-}
-
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -211,6 +172,12 @@ h1 {
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+}
+
+.footer-text-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20px;
 }
 
 /* The typing effect */
